@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./pokemonfavicon.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokédex</h1>
+        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search Pokémon">
+        <div id="pokemonList" class="row pokemon-list"></div>
+        <div class="pagination-dropdown">
+            <label for="itemsPerPage">Items per page:</label>
+            <select id="itemsPerPage" class="form-select">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+        <div id="pagination" class="pagination"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

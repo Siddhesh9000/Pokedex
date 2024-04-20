@@ -1,0 +1,179 @@
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    color: #f8f9fa;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #f8f9fa;
+}
+
+/* Pokemon list styles */
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Pokemon card styles */
+.pokemon-card {
+    background-color: #343a40;
+    border: 2px solid #495057;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for Pokemon card */
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    border-color: #4caf50;
+}
+
+/* Pokemon image styles */
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for Pokemon image */
+.pokemon-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Details styles */
+.details {
+    margin-top: 10px;
+}
+
+/* Toggle button styles */
+.toggle-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* Arrow icon styles */
+.toggle-btn::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Hover effect for toggle button */
+.toggle-btn:hover {
+    background-color: #45a049;
+}
+
+/* Search input styles */
+.search-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    color: white;
+    background-color: #495057;
+}
+
+/* Focus effect for search input */
+.search-input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
+/* Placeholder text color */
+.search-input::placeholder {
+    color: #adb5bd;
+}
+
+/* Icon color */
+.search-icon {
+    color: white;
+}
+
+/* Pagination dropdown styles */
+.pagination-dropdown {
+    margin-bottom: 10px;
+    margin-top: 1rem;
+}
+
+/* Pagination dropdown label styles */
+.pagination-dropdown label {
+    margin-right: 10px;
+}
+
+/* Pagination dropdown select styles */
+.pagination-dropdown select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    color: #495057;
+}
+
+/* Focus effect for pagination dropdown select */
+.pagination-dropdown select:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Pagination link styles */
+.pagination-link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Active pagination link styles */
+.pagination-link.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.form-select {
+    width: 8%;
+}
