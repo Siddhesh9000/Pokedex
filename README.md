@@ -1,5 +1,8 @@
 # Pokédex
 
+Live Demo
+Check out the live demo here.
+
 ## Description
 
 Pokédex is a web application that allows users to search and browse Pokémon information. It provides a user-friendly interface for viewing details about different Pokémon, including their height, weight, abilities, and more.
