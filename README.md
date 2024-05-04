@@ -1,6 +1,6 @@
 # Pokédex
 
-[Live Demo](https://pokedexnetlifyapp.netlify.app)
+Demo Here: [Pokedex](https://pokedexnetlifyapp.netlify.app)
 
 ## Description
 
